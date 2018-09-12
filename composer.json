@@ -1,0 +1,23 @@
+{
+    "name": "hasiera/core",
+    "description": "Core features of Hasiera. Hasiera is a Family Resources Manager.",
+    "keywords": ["management", "family", "php", "school"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Waeles"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": "^7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hasiera\\Component\\Core\\": "src/"
+        }
+    }
+}
