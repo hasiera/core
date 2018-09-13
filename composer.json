@@ -1,7 +1,7 @@
 {
     "name": "hasiera/core",
     "description": "Core features of Hasiera. Hasiera is a Family Resources Manager.",
-    "keywords": ["management", "family", "php", "school"],
+    "keywords": ["management", "family", "php", "school", "core"],
     "license": "MIT",
     "authors": [
         {
