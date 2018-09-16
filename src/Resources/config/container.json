@@ -1,0 +1,21 @@
+{
+	"defaults": {
+		"autowire": true,
+		"autoconfigure": true
+	},
+	"services": [
+		{
+			"name": "Hasiera\\Component\\Utils\\Configuration\\Configuration",
+			"aliases": ["hasiera.config"],
+			"tags": [
+				{"name":"hasiera.component_dependent"}
+			]
+		}
+	],
+	"includes": [
+		{
+			"type": "service",
+			"class": "Hasiera\\Component\\Core\\Container\\ServiceDiscovery"
+		}
+	]
+}
