@@ -9,8 +9,10 @@
         }
     ],
     "type": "library",
+    "minimum-stability": "dev",
     "require": {
-		"php": "^7.1"
+		"php": "^7.1",
+        "hasiera/utils": "dev-master"
     },
     "require-dev": {
 		"phpunit/phpunit": "6.*"
